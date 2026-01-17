@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project presents a **purely geometric computer vision pipeline** for detecting and **quantifying the volume of road anomalies** such as **potholes and road humps** using **binocular stereo vision**.
 
@@ -27,7 +27,7 @@ The final output of the system is a **volumetric estimate (in cm³ / liters)** o
 
 ---
 
-## 🧠 Methodology Pipeline
+##  Methodology Pipeline
 
 The system follows a four-stage pipeline:
 
@@ -51,5 +51,19 @@ The system follows a four-stage pipeline:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+There are 11 stereo image pairs ,totalling upto 22 images
+Metric_Pothole_3D/
+│
+├── data/
+│ └── dataset1/
+│ └── rgb/
+│ ├── 000001_left.png
+│ ├── 000001_right.png
+│ ├── 000002_left.png
+│ ├── 000002_right.png
+│ └── ...
+│
+├── pothole_volume_pipeline.py
+├── README.md
 
