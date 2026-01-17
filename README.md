@@ -51,8 +51,10 @@ The system follows a four-stage pipeline:
 
 ---
 
-##  Project Structure
-There are 11 stereo image pairs ,totalling upto 22 images
+## 📂 Project Structure
+
+The dataset consists of **11 stereo image pairs** (total **22 images**), organized as follows:
+
 Metric_Pothole_3D/
 │
 ├── data/
@@ -62,8 +64,12 @@ Metric_Pothole_3D/
 │ ├── 000001_right.png
 │ ├── 000002_left.png
 │ ├── 000002_right.png
+│ ├── 000003_left.png
+│ ├── 000003_right.png
 │ └── ...
 │
 ├── pothole_volume_pipeline.py
 ├── README.md
+
+
 
